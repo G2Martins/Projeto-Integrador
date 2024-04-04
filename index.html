@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cãonecta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="images/1.png" alt="Ilustração do Dono do Blog" class="photo">
+        <h1 id="title">Configuração da Porta do Cachorro</h1>
+    </header>
+   
+    <section>
+        <article class="post">
+            <header>
+                
+                <img src="images/post_image.png" class="post_image">
+            </header>
+    
+            <form id="lockForm">
+                <label for="lockTimeStart">Horário de Início do Travamento:</label>
+                <input type="time" id="lockTimeStart" name="lockTimeStart">
+        
+                <label for="lockTimeEnd">Horário de Fim do Destravamento:</label>
+                <input type="time" id="lockTimeEnd" name="lockTimeEnd">
+        
+                <button type="submit">Enviar</button>
+            </form>
+            
+            <div id="status"></div>
+
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            Projeto Integrador Engenharia da Computação 3° Semestre
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>

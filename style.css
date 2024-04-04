@@ -1,0 +1,101 @@
+body{
+    background: rgb(19, 1, 39);
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo{
+    width: 200px; 
+    height: 200px;
+    border: 5px solid rgb(71, 4, 148);
+    border-radius: 50%;
+}
+
+#title, .subtitle{
+    color: rgb(255, 255, 255);
+}
+
+#title{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(71, 4, 148);
+}
+
+.post{
+    background: white;                             /*Outra Forma de representar o padding*/
+    padding: 15px;                                   /* padding-top = 15px;*/
+    border: 4px solid rgb(71, 4, 148);             /* padding-right = 10px;*/
+    /*border-top: 4px dotted black;*/                /* padding-bottom = 5px;*/
+    /*border-right: 4px dashed palevioletred;*/      /* padding-left = 0;*/
+    /*border-bottom: 4px solid rgb(71, 4, 148);*/
+    /*border-left: 4px dotted rgb(255, 0, 0);*/
+    margin-bottom: 10px;    
+    border-radius: 20px;          
+}                                
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image{
+    border: 4px solid rgb(71, 4, 148);
+    border-radius: 20px; 
+    width: 450px;  /* Redimensiona a largura da imagem */
+    height: auto;  /* Mantém a proporção da imagem */
+    display: block;  /* Torna a imagem um bloco para centralizá-la */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente */
+}
+
+form {
+    background-color: #cfcccc;
+    margin: 50px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="time"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: rgb(19, 1, 39);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+     border: 4px solid rgb(71, 4, 148);
+}
+
+.footer-content {
+    color: rgb(19, 1, 39);
+    font-weight: bold;
+}
